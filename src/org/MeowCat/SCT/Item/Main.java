@@ -11,13 +11,13 @@ public class Main extends JavaPlugin {
         getServer().getConsoleSender().sendMessage("§f||§6=-=-=-=-=-=-=-=§7§l[Item]§6=-=-=-=-=-=-=-=-=§f||");
         getServer().getConsoleSender().sendMessage("§6          Group: §eSCT  §f| §6Version: §b1.0");
         getServer().getConsoleSender().sendMessage("§e                       插件加载完毕！");
-        getServer().getConsoleSender().sendMessage("§x||=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=§x||");
+        getServer().getConsoleSender().sendMessage("§a||=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=||");
     }
 
     public void onDisable() {
         getServer().getConsoleSender().sendMessage("§f||§6=-=-=-=-=-=-=-=§7§l[Item]§6=-=-=-=-=-=-=-=-=§f||");
         getServer().getConsoleSender().sendMessage("§6          Group: §eSCT  §f| §6Version: §b1.0");
         getServer().getConsoleSender().sendMessage("§e                       插件卸载完毕！");
-        getServer().getConsoleSender().sendMessage("§x||=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=§x||");
+        getServer().getConsoleSender().sendMessage("§a||=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=||");
     }
 }
