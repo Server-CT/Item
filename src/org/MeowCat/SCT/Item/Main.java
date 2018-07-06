@@ -6,26 +6,18 @@ public class Main extends JavaPlugin {
 
     public static Main plugin;
 
-    public void A() {
+    public void onEnable() {
+        plugin = this;
         getServer().getConsoleSender().sendMessage("§f||§6=-=-=-=-=-=-=-=§7§l[Item]§6=-=-=-=-=-=-=-=-=§f||");
         getServer().getConsoleSender().sendMessage("§6          Group: §eSCT  §f| §6Version: §b1.0");
         getServer().getConsoleSender().sendMessage("§e                       插件加载完毕！");
         getServer().getConsoleSender().sendMessage("§x||=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=§x||");
     }
 
-    public void B() {
+    public void onDisable() {
         getServer().getConsoleSender().sendMessage("§f||§6=-=-=-=-=-=-=-=§7§l[Item]§6=-=-=-=-=-=-=-=-=§f||");
         getServer().getConsoleSender().sendMessage("§6          Group: §eSCT  §f| §6Version: §b1.0");
         getServer().getConsoleSender().sendMessage("§e                       插件卸载完毕！");
         getServer().getConsoleSender().sendMessage("§x||=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=§x||");
-    }
-
-    public void onEnable() {
-        plugin = this;
-        A();
-    }
-
-    public void onDisable() {
-        B();
     }
 }
