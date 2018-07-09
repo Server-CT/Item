@@ -1,9 +1,8 @@
 name: SCTItem
 main: org.SCT.Item.Main
 author: Server CT
-version: 1.0
+version: 1.0.0
 website: http://sct.meowcat.org/
-database: false
 description: Custom Item.
 load: POSTWORLD
 prefix: SCTItem
