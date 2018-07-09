@@ -1,0 +1,15 @@
+name: SCTItem
+main: org.SCT.Item.Main
+author: Server CT
+version: 1.0
+website: http://sct.meowcat.org/
+database: false
+description: Custom Item.
+load: POSTWORLD
+prefix: SCTItem
+commands:
+  sctitem:
+    permission: sct.item
+    description: SCTItem Main Command
+    usage: /<command>
+    permission-message: You do not have enough permission to do this.

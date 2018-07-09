@@ -1,0 +1,16 @@
+language:
+  use: zh-cn
+  zh-cn:
+    PlayerNotOnline: "玩家不在线"
+    NumberError: "数量有误"
+    NoPermission: "无权限"
+    ItemError: "未找到物品"
+    SentItem: "成功给予物品"
+    RealoadPlugin: "重载成功"
+  en-us:
+    PlayerNotOnline: "Player is not online."
+    NumberError: "Number is not vaild."
+    NoPermission: "You have no permission to execute this command."
+    ItemError: "Item not found."
+    SentItem: "Success."
+    RealoadPlugin: "Reload successfully."

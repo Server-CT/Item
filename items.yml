@@ -1,0 +1,28 @@
+#################################
+# Item Configuration File       #
+# @author SCT                   #
+# @create 2018/07/06 00:06      #
+# @lastupdate 2018/07/06 00:06  #
+# Copyright (C) 2018 Server CT  #
+# All Rights Reserved.          #
+#################################
+key:
+  type: 292
+  durability: 63
+  meta:
+    display: "&f鉴定卷轴"
+    lore:
+    - "&b&l&n已绑定: 无"
+    - "&e用法: &7主城铁匠铺处"
+    - "&e作用: &7坚定一把未鉴定的武器"
+    - "&e说明: "
+    - "  &7- 鉴定出的属性完全随机"
+    - "  &7- 此卷轴可能鉴定失败，或被封印物品"
+    - "  &7- 失败需要重新鉴定，解封需要解封卷轴"
+    - "  &7- 此卷轴可鉴定出以下随机品质武器"
+    - "  &7- 劣质/&f普通&7/&a良好&7/&5&l史诗&7/&6&l传说"
+    - "  &7- 劣质/普通属性将无法强化,良好及以上将可强化"
+    - "&7鉴定卷轴"
+    unbreak: true
+    enchants: ["DURABILITYx1", "KNOCKBACKx2-f", "DAMAGE_ALL"]
+    flags: ["HIDE_ENCHANTS", "HIDE_POTION_EFFECTS", "HIDE_ATTRIBUTES", "HIDE_UNBREAKABLE"]
