@@ -5,6 +5,7 @@ version: 1.0.0
 website: http://sct.meowcat.org/
 description: Custom Item.
 load: POSTWORLD
+database: false
 prefix: SCTItem
 commands:
   sctitem:
